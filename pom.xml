@@ -11,7 +11,6 @@
     <name>otp-manager</name>
     <description>This java library used to generate and verify otp code</description>
     <url>https://github.com/seyeadamaUASZ/otp-manager</url>
-
     <licenses>
         <license>
             <name>MIT License</name>
@@ -82,11 +81,5 @@
         </dependency>
 
     </dependencies>
-
-
-
-
-
-
 
 </project>

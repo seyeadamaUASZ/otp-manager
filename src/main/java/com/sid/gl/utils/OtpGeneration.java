@@ -11,7 +11,7 @@ import java.util.Random;
  */
 public interface OtpGeneration {
 
-    public static  String generateCode(String type, int len){
+    static  String generateCode(String type, int len){
         if(StringUtils.equals(TypeOTP.NUMBER.name(),type)){
             return generateOtpNumbers(len);
         }
