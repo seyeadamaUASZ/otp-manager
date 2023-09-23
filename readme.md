@@ -51,6 +51,3 @@ private IOTPConfiguration iotpConfiguration;`
 
     }
 }
-
-
-
