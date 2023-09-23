@@ -1,4 +1,4 @@
-OTP manager est un provider de otp selon des config
+#OTP manager est un provider de otp selon des config
 définis comme la longueur du code otp, la construction 
 du code (numeric,alphanumeric,alphabet).
 
