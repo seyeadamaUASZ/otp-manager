@@ -15,9 +15,7 @@ public class OTP {
     private String code;
     private long durationValidity;
     private boolean alreadyValidated;
-    private String caractere;
     private TypeOTP typeOTP;
-    private double durationOtpValue;
     private Duration duration;
 
 }

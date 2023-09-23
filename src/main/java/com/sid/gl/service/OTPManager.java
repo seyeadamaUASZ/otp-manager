@@ -1,12 +1,15 @@
 package com.sid.gl.service;
 
+import com.sid.gl.exception.OTPException;
 import com.sid.gl.model.Duration;
 import com.sid.gl.model.OTP;
 import com.sid.gl.model.TypeOTP;
 import com.sid.gl.utils.OtpGeneration;
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -16,7 +19,7 @@ import java.util.Map;
  * verification si toujours valide ou expiré
  */
 public class OTPManager implements IOTPConfiguration{
-   static  Map<String,OTP> mapOtp;
+   public static  Map<String,OTP> mapOtp=new HashMap<>();
     /**
      * generation du code selon different critere
      * NUMERIC,ALPHANUMERIC OR ALPHABET
@@ -29,12 +32,10 @@ public class OTPManager implements IOTPConfiguration{
     public String generateCodeOtp(String type, String typeDuration, long duration, int len) {
         OTP otp = new OTP();
         otp.setTypeOTP(TypeOTP.valueOf(type));
-        otp.setCaractere(type);
-        //generate code selon le type
+        //generate code otp here
         String code = OtpGeneration.generateCode(type,len);
         otp.setCode(code);
         otp.setAlreadyValidated(false);
-
         // verify duration type
         long timer = 0;
         if(StringUtils.equalsIgnoreCase(Duration.MINUTE.name(),typeDuration)){
@@ -50,12 +51,25 @@ public class OTPManager implements IOTPConfiguration{
     }
 
     @Override
-    public boolean verifyCode(String code) {
-        //TODO verification du code
+    public boolean verifyCode(String code) throws OTPException {
+        //verifier l'ensemble des elements de vérification
+        if(mapOtp.containsKey(code)){
+            OTP otp = mapOtp.get(code);
+            if(hasExpiration(otp.getDurationValidity())){
+                //remove after vérification
+                removeOtpOnMap(code);
+                return true;
+            }else{
+                throw new OTPException("code not valid or already validate");
+            }
+        }
         return false;
     }
 
-    private void removeOtpOnMap(OTP otp){
-        // TODO supprimer le code généré apres verification
+    private void removeOtpOnMap(String code){
+        mapOtp.remove(code);
+    }
+    private boolean hasExpiration(long time){
+        return ((new Date()).getTime() - time) < 0L;
     }
 }

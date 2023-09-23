@@ -7,6 +7,18 @@
     <groupId>com.sid.gl</groupId>
     <artifactId>otp-manager</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>otp-manager</name>
+    <description>This java library used to generate and verify otp code</description>
+    <url>https://github.com/seyeadamaUASZ/otp-manager</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
