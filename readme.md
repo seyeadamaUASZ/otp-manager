@@ -24,30 +24,30 @@ Signature de la méthode de génération du code OTP :
 - len : la longueur du code OTP
 
 `public class Main {
-private IOTPConfiguration iotpConfiguration;`
+private IOTPConfiguration OTPConfiguration;`
 
-    public Main(IOTPConfiguration iotpConfiguration) {
-        this.iotpConfiguration = iotpConfiguration;
+    public Main(IOTPConfiguration OTPConfiguration) {
+        this.OTPConfiguration = OTPConfiguration;
     }
     public String  genecode(){
-        return this.iotpConfiguration.generateCodeOtp("NUMBER","MINUTE",2,4);
+        return this.OTPConfiguration.generateCodeOtp("NUMBER","MINUTE",2,4);
     }
 
     public boolean verification(String code) throws OTPException {
-        return this.iotpConfiguration.verifyCode(code);
+        return this.OTPConfiguration.verifyCode(code);
     }
 
-    public static void main(String[] args) throws OTPException {
+    public static void OTPApplication(String[] args) throws OTPException {
         OTPManager otpManager = new OTPManager();
-        Main main = new Main(otpManager);
-        String code = main.genecode();
+        Main OTPApplication = new Main(otpManager);
+        String code = OTPApplication.genecode();
         System.out.println("code generated is "+ code);
 
         System.out.println("************** verification ******************");
 
-        System.out.println("is valide code "+ main.verification(code));
+        System.out.println("is valide code "+ OTPApplication.verification(code));
 
-        System.out.println("after remove this "+main.verification(code));
+        System.out.println("after remove this "+OTPApplication.verification(code));
 
     }
 }

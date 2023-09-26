@@ -11,13 +11,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
- /**
- * La configuration de la generation de l'OTP et la verification de validité
- * la configuration selon le choix du format de caractère
- * le type de duration selon le minute ou heure
- * verification si toujours valide ou expiré
+/**
+ * @author Adama SEYE
  */
-public class OTPManager implements IOTPConfiguration{
+
+ public class OTPManager implements OTPConfiguration {
    public static Map<String,OTP> otpStore=new HashMap<>();
     /**
      * generation du code selon different critere
@@ -37,7 +35,6 @@ public class OTPManager implements IOTPConfiguration{
         otp.setTypeOTP(TypeOTP.valueOf(type));
         //générer du code otp ici
         String code = OtpGeneration.generateCode(type,len);
-        otp.setCode(code);
         otp.setAlreadyValidated(false);
         // verify duration type
         long timer = 0;
@@ -46,6 +43,9 @@ public class OTPManager implements IOTPConfiguration{
         }
         if(StringUtils.equalsIgnoreCase(Duration.HOUR.name(),typeDuration)){
             timer = (new Date()).getTime() + (duration * 60*60*1000);
+        }
+        if(StringUtils.equalsIgnoreCase(Duration.SECONDS.name(),typeDuration)){
+            timer = (new Date()).getTime() + (duration*1000);
         }
         otp.setDurationValidity(timer);
         //store this on hasmap
@@ -65,7 +65,7 @@ public class OTPManager implements IOTPConfiguration{
         //verifier l'ensemble des elements de vérification
         if(otpStore.containsKey(code)){
             OTP otp = otpStore.get(code);
-            if(hasExpiration(otp.getDurationValidity())){
+            if(hasNoExpiration(otp.getDurationValidity())){
                 //remove after vérification
                 removeOtpOnMap(code);
                 return true;
@@ -90,7 +90,7 @@ public class OTPManager implements IOTPConfiguration{
       * @param time
       * @return
       */
-    private boolean hasExpiration(long time){
+    private boolean hasNoExpiration(long time){
         return ((new Date()).getTime() - time) < 0L;
     }
 }

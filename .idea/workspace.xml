@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a899af5c-d990-4a2f-9e3f-088c39ac7398" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sid/gl/OTPGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sid/gl/OTPManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/OTPApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/model/OTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/model/OTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/IOTPConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +54,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/projet-senico/pom.xml",
@@ -55,9 +66,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sid.gl.Main" />
+  <component name="RunManager" selected="JUnit.OTPGeneratorTest">
+    <configuration name="OTPApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPApplication" />
       <module name="otp-manager" />
       <extension name="coverage">
         <pattern>
@@ -69,9 +80,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OTPGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otp-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sid.gl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sid.gl" />
+      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OTPManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otp-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sid.gl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sid.gl" />
+      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OTPManagerTest.should_hasExpiration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otp-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sid.gl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sid.gl" />
+      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPManagerTest" />
+      <option name="METHOD_NAME" value="should_hasExpiration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OTPManagerTest.should_verify_code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otp-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sid.gl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sid.gl" />
+      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPManagerTest" />
+      <option name="METHOD_NAME" value="should_verify_code" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.OTPGeneratorTest" />
+        <item itemvalue="JUnit.OTPManagerTest" />
+        <item itemvalue="JUnit.OTPManagerTest.should_hasExpiration" />
+        <item itemvalue="Application.OTPApplication" />
+        <item itemvalue="JUnit.OTPManagerTest.should_verify_code" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +165,8 @@
       <workItem from="1694897001987" duration="2846000" />
       <workItem from="1695126528035" duration="2765000" />
       <workItem from="1695385163936" duration="2545000" />
-      <workItem from="1695418558638" duration="13597000" />
+      <workItem from="1695418558638" duration="16373000" />
+      <workItem from="1695653647873" duration="6823000" />
     </task>
     <servers />
   </component>
