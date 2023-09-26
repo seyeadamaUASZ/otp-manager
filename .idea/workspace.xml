@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a899af5c-d990-4a2f-9e3f-088c39ac7398" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sid/gl/OTPGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sid/gl/OTPManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/OTPApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/model/OTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/model/OTP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/IOTPConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +156,7 @@
       <workItem from="1695126528035" duration="2765000" />
       <workItem from="1695385163936" duration="2545000" />
       <workItem from="1695418558638" duration="16373000" />
-      <workItem from="1695653647873" duration="6823000" />
+      <workItem from="1695653647873" duration="7578000" />
     </task>
     <servers />
   </component>
