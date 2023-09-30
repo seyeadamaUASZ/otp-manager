@@ -1,4 +1,4 @@
-package com.sid.gl.model;
+package com.github.seyeadamaUASZ.model;
 
 /**
  * @author Adama SEYE

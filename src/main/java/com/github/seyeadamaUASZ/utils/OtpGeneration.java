@@ -1,6 +1,6 @@
-package com.sid.gl.utils;
+package com.github.seyeadamaUASZ.utils;
 
-import com.sid.gl.model.TypeOTP;
+import com.github.seyeadamaUASZ.model.TypeOTP;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Random;

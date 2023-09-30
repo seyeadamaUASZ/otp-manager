@@ -1,6 +1,6 @@
-package com.sid.gl.service;
+package com.github.seyeadamaUASZ.service;
 
-import com.sid.gl.exception.OTPException;
+import com.github.seyeadamaUASZ.exception.OTPException;
 
 /**
  * @author Adama SEYE :

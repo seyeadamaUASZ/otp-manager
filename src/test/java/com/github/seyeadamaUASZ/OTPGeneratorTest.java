@@ -1,6 +1,6 @@
-package com.sid.gl;
+package com.github.seyeadamaUASZ;
 
-import com.sid.gl.utils.OtpGeneration;
+import com.github.seyeadamaUASZ.utils.OtpGeneration;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

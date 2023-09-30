@@ -1,4 +1,4 @@
-package com.sid.gl.exception;
+package com.github.seyeadamaUASZ.exception;
 
 /**
  * @author Adama SEYE

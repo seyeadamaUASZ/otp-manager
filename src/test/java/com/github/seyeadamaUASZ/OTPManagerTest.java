@@ -1,8 +1,7 @@
-package com.sid.gl;
+package com.github.seyeadamaUASZ;
 
-import com.sid.gl.exception.OTPException;
-import com.sid.gl.service.OTPConfiguration;
-import com.sid.gl.service.OTPManager;
+import com.github.seyeadamaUASZ.exception.OTPException;
+import com.github.seyeadamaUASZ.service.OTPManager;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -46,5 +45,6 @@ class OTPManagerTest {
     private boolean hasNoExpiration(long time){
         return ((new Date()).getTime() - time) < 0L;
     }
+
 
 }

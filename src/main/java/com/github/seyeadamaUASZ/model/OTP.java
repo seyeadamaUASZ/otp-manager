@@ -1,4 +1,4 @@
-package com.sid.gl.model;
+package com.github.seyeadamaUASZ.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

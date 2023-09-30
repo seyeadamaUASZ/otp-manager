@@ -1,11 +1,11 @@
-package com.sid.gl;
+package com.github.seyeadamaUASZ;
 
-import com.sid.gl.exception.OTPException;
-import com.sid.gl.service.OTPConfiguration;
-import com.sid.gl.service.OTPManager;
+import com.github.seyeadamaUASZ.service.OTPConfiguration;
+import com.github.seyeadamaUASZ.exception.OTPException;
+import com.github.seyeadamaUASZ.service.OTPManager;
 
 public class OTPApplication {
-    private OTPConfiguration OTPConfiguration;
+    private com.github.seyeadamaUASZ.service.OTPConfiguration OTPConfiguration;
 
     public OTPApplication(OTPConfiguration OTPConfiguration) {
         this.OTPConfiguration = OTPConfiguration;

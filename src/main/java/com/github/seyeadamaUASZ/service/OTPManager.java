@@ -1,10 +1,10 @@
-package com.sid.gl.service;
+package com.github.seyeadamaUASZ.service;
 
-import com.sid.gl.exception.OTPException;
-import com.sid.gl.model.Duration;
-import com.sid.gl.model.OTP;
-import com.sid.gl.model.TypeOTP;
-import com.sid.gl.utils.OtpGeneration;
+import com.github.seyeadamaUASZ.exception.OTPException;
+import com.github.seyeadamaUASZ.model.Duration;
+import com.github.seyeadamaUASZ.model.OTP;
+import com.github.seyeadamaUASZ.model.TypeOTP;
+import com.github.seyeadamaUASZ.utils.OtpGeneration;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Date;
@@ -16,7 +16,7 @@ import java.util.Map;
  */
 
  public class OTPManager implements OTPConfiguration {
-   public static Map<String,OTP> otpStore=new HashMap<>();
+   public static Map<String, OTP> otpStore=new HashMap<>();
     /**
      * generation du code selon different critere
      * NUMERIC,ALPHANUMERIC OR ALPHABET
