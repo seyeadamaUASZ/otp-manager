@@ -1,7 +1,7 @@
-package com.github.seyeadamaUASZ;
+package io.github.seyeadamaUASZ;
 
-import com.github.seyeadamaUASZ.exception.OTPException;
-import com.github.seyeadamaUASZ.service.OTPManager;
+import io.github.seyeadamaUASZ.exception.OTPException;
+import io.github.seyeadamaUASZ.service.OTPManager;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

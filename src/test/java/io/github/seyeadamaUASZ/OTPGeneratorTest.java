@@ -1,6 +1,6 @@
-package com.github.seyeadamaUASZ;
+package io.github.seyeadamaUASZ;
 
-import com.github.seyeadamaUASZ.utils.OtpGeneration;
+import io.github.seyeadamaUASZ.utils.OtpGeneration;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

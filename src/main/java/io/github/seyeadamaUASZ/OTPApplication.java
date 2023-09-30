@@ -1,11 +1,11 @@
-package com.github.seyeadamaUASZ;
+package io.github.seyeadamaUASZ;
 
-import com.github.seyeadamaUASZ.service.OTPConfiguration;
-import com.github.seyeadamaUASZ.exception.OTPException;
-import com.github.seyeadamaUASZ.service.OTPManager;
+import io.github.seyeadamaUASZ.service.OTPConfiguration;
+import io.github.seyeadamaUASZ.exception.OTPException;
+import io.github.seyeadamaUASZ.service.OTPManager;
 
 public class OTPApplication {
-    private com.github.seyeadamaUASZ.service.OTPConfiguration OTPConfiguration;
+    private io.github.seyeadamaUASZ.service.OTPConfiguration OTPConfiguration;
 
     public OTPApplication(OTPConfiguration OTPConfiguration) {
         this.OTPConfiguration = OTPConfiguration;

@@ -1,4 +1,4 @@
-package com.github.seyeadamaUASZ.model;
+package io.github.seyeadamaUASZ.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

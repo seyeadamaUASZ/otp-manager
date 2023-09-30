@@ -1,4 +1,4 @@
-package com.github.seyeadamaUASZ.exception;
+package io.github.seyeadamaUASZ.exception;
 
 /**
  * @author Adama SEYE

@@ -1,6 +1,6 @@
-package com.github.seyeadamaUASZ.utils;
+package io.github.seyeadamaUASZ.utils;
 
-import com.github.seyeadamaUASZ.model.TypeOTP;
+import io.github.seyeadamaUASZ.model.TypeOTP;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Random;

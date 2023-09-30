@@ -1,6 +1,6 @@
-package com.github.seyeadamaUASZ.service;
+package io.github.seyeadamaUASZ.service;
 
-import com.github.seyeadamaUASZ.exception.OTPException;
+import io.github.seyeadamaUASZ.exception.OTPException;
 
 /**
  * @author Adama SEYE :

@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a899af5c-d990-4a2f-9e3f-088c39ac7398" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/OTPApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/OTPApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/exception/OTPException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/exception/OTPException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/model/Duration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/model/Duration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/model/OTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/model/OTP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/model/TypeOTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/model/TypeOTP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/service/OTPConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/service/OTPManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/service/OTPManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sid/gl/utils/OtpGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/utils/OtpGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sid/gl/OTPGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/seyeadamaUASZ/OTPGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sid/gl/OTPManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/seyeadamaUASZ/OTPManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/OTPApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/OTPApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/exception/OTPException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/exception/OTPException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/model/Duration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/model/Duration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/model/OTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/model/OTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/model/TypeOTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/model/TypeOTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/service/OTPConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/service/OTPConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/service/OTPManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/service/OTPManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seyeadamaUASZ/utils/OtpGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/seyeadamaUASZ/utils/OtpGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/seyeadamaUASZ/OTPGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/seyeadamaUASZ/OTPGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/seyeadamaUASZ/OTPManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/seyeadamaUASZ/OTPManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +68,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.OTPGeneratorTest">
-    <configuration name="OTPApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPApplication" />
+  <component name="RunManager" selected="JUnit.OTPManagerTest">
+    <configuration name="com.github.seyeadamaUASZ.OTPApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.seyeadamaUASZ.OTPApplication" />
       <module name="otp-manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sid.gl.*" />
+          <option name="PATTERN" value="com.github.seyeadamaUASZ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,16 +82,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OTPGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OTPGeneratorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="otp-manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sid.gl.*" />
+          <option name="PATTERN" value="com.github.seyeadamaUASZ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sid.gl" />
-      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPGeneratorTest" />
+      <option name="PACKAGE_NAME" value="com.github.seyeadamaUASZ" />
+      <option name="MAIN_CLASS_NAME" value="com.github.seyeadamaUASZ.OTPGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OTPGeneratorTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otp-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.seyeadamaUASZ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.seyeadamaUASZ" />
+      <option name="MAIN_CLASS_NAME" value="io.github.seyeadamaUASZ.OTPGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OTPManagerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otp-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.seyeadamaUASZ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.seyeadamaUASZ" />
+      <option name="MAIN_CLASS_NAME" value="com.github.seyeadamaUASZ.OTPManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,56 +131,24 @@
       <module name="otp-manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sid.gl.*" />
+          <option name="PATTERN" value="io.github.seyeadamaUASZ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sid.gl" />
-      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPManagerTest" />
+      <option name="PACKAGE_NAME" value="io.github.seyeadamaUASZ" />
+      <option name="MAIN_CLASS_NAME" value="io.github.seyeadamaUASZ.OTPManagerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OTPManagerTest.should_hasExpiration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="otp-manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sid.gl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sid.gl" />
-      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPManagerTest" />
-      <option name="METHOD_NAME" value="should_hasExpiration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OTPManagerTest.should_verify_code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="otp-manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sid.gl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sid.gl" />
-      <option name="MAIN_CLASS_NAME" value="com.sid.gl.OTPManagerTest" />
-      <option name="METHOD_NAME" value="should_verify_code" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OTPGeneratorTest" />
         <item itemvalue="JUnit.OTPManagerTest" />
-        <item itemvalue="JUnit.OTPManagerTest.should_hasExpiration" />
-        <item itemvalue="Application.OTPApplication" />
-        <item itemvalue="JUnit.OTPManagerTest.should_verify_code" />
+        <item itemvalue="JUnit.OTPGeneratorTest (2)" />
+        <item itemvalue="JUnit.OTPManagerTest (1)" />
+        <item itemvalue="JUnit.OTPGeneratorTest (1)" />
+        <item itemvalue="Application.com.github.seyeadamaUASZ.OTPApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +170,7 @@
       <workItem from="1695759830163" duration="510000" />
       <workItem from="1695760414835" duration="2280000" />
       <workItem from="1695937714260" duration="637000" />
-      <workItem from="1695997561127" duration="5780000" />
+      <workItem from="1695997561127" duration="6518000" />
     </task>
     <servers />
   </component>

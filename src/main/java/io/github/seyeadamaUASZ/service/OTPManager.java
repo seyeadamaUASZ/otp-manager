@@ -1,10 +1,10 @@
-package com.github.seyeadamaUASZ.service;
+package io.github.seyeadamaUASZ.service;
 
-import com.github.seyeadamaUASZ.exception.OTPException;
-import com.github.seyeadamaUASZ.model.Duration;
-import com.github.seyeadamaUASZ.model.OTP;
-import com.github.seyeadamaUASZ.model.TypeOTP;
-import com.github.seyeadamaUASZ.utils.OtpGeneration;
+import io.github.seyeadamaUASZ.exception.OTPException;
+import io.github.seyeadamaUASZ.model.Duration;
+import io.github.seyeadamaUASZ.model.OTP;
+import io.github.seyeadamaUASZ.model.TypeOTP;
+import io.github.seyeadamaUASZ.utils.OtpGeneration;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Date;
