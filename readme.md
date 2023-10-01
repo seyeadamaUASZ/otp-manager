@@ -4,6 +4,21 @@ Cette librairie vous permet de générer rapidement des
 codes OTP selon une longueur que vous définissez. Nous avons
 différents parametres de configuration:
 
+Vous pouvez ajouter la dépendance maven sur votre projet:
+
+pom.xml maven :
+
+```xml
+<dependency>
+    <groupId>io.github.seyeadamaUASZ</groupId>
+    <artifactId>otp-manager</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+Gradle :
+```
+implementation 'io.github.seyeadamaUASZ:otp-manager:1.0.0'
+```
 - Type de code OTP à générer :
     type de l'OTP  (**NUMBER, ALPHABET, ALPHA_NUMERIC**)       
 

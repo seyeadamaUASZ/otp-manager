@@ -87,10 +87,10 @@
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
-                                <configuration>
+                                <!--<configuration>
                                     <keyname>otpmanager</keyname>
                                     <passphraseServerId>Amadou031</passphraseServerId>
-                                </configuration>
+                                </configuration>-->
                             </execution>
                         </executions>
                     </plugin>
