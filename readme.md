@@ -69,4 +69,39 @@ private IOTPConfiguration OTPConfiguration;`
         System.out.println("after remove this "+OTPApplication.verification(code));
 
     }
+
+
+}
+
+sur votre projet spring, apres avoir importé la dépendance,
+vous créez le bean :
+
+`@Bean
+public OTPConfiguration getConf(){
+return new OTPManager();
+}`
+
+et comme exemple d'utilisation:
+
+
+@RestController
+public class DemoOtpController {
+
+    private OTPConfiguration otpConfiguration;
+
+    public DemoOtpController(OTPConfiguration otpConfiguration) {
+        this.otpConfiguration = otpConfiguration;
+    }
+
+    @GetMapping("/generate")
+    public String generateOTP(){
+        String code = otpConfiguration.generateCodeOtp("NUMBER","MINUTE",1,4);
+        return code;
+    }
+
+    @GetMapping("/verify/{code}")
+    public boolean verifycode(@PathVariable("code") String code)  {
+            return otpConfiguration.verifyCode(code);
+
+    }
 }
