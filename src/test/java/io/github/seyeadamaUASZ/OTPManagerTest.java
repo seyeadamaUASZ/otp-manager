@@ -1,6 +1,5 @@
 package io.github.seyeadamaUASZ;
 
-import io.github.seyeadamaUASZ.exception.OTPException;
 import io.github.seyeadamaUASZ.service.OTPManager;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -30,7 +29,7 @@ class OTPManagerTest {
 
     //verify code
     @Test
-    void should_verify_code() throws OTPException {
+    void should_verify_code() {
         String code = otpManager.generateCodeOtp("NUMBER","SECONDS",1,4);
         boolean result = otpManager.verifyCode(code);
         assertTrue(result);

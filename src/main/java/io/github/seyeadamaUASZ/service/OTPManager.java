@@ -1,6 +1,6 @@
 package io.github.seyeadamaUASZ.service;
 
-import io.github.seyeadamaUASZ.exception.OTPException;
+
 import io.github.seyeadamaUASZ.model.Duration;
 import io.github.seyeadamaUASZ.model.OTP;
 import io.github.seyeadamaUASZ.model.TypeOTP;
@@ -57,11 +57,10 @@ import java.util.Map;
       * vérifier le code OTP
       * @param code
       * @return
-      * @throws OTPException
       */
 
     @Override
-    public boolean verifyCode(String code) throws OTPException {
+    public boolean verifyCode(String code){
         //verifier l'ensemble des elements de vérification
         if(otpStore.containsKey(code)){
             OTP otp = otpStore.get(code);
@@ -70,7 +69,7 @@ import java.util.Map;
                 removeOtpOnMap(code);
                 return true;
             }else{
-                throw new OTPException("code not valid or already validate");
+                return false;
             }
         }
         return false;

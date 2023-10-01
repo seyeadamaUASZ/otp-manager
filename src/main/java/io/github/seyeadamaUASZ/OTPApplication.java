@@ -1,7 +1,7 @@
 package io.github.seyeadamaUASZ;
 
 import io.github.seyeadamaUASZ.service.OTPConfiguration;
-import io.github.seyeadamaUASZ.exception.OTPException;
+
 import io.github.seyeadamaUASZ.service.OTPManager;
 
 public class OTPApplication {
@@ -14,11 +14,11 @@ public class OTPApplication {
         return this.OTPConfiguration.generateCodeOtp("NUMBER","MINUTE",2,4);
     }
 
-    public boolean verification(String code) throws OTPException {
+    public boolean verification(String code)  {
         return this.OTPConfiguration.verifyCode(code);
     }
 
-    public static void main(String[] args) throws OTPException {
+    public static void main(String[] args)  {
         OTPManager otpManager = new OTPManager();
         OTPApplication OTPApplication = new OTPApplication(otpManager);
         String code = OTPApplication.genecode();

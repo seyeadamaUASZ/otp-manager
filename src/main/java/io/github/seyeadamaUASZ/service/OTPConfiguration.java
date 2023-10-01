@@ -1,7 +1,5 @@
 package io.github.seyeadamaUASZ.service;
 
-import io.github.seyeadamaUASZ.exception.OTPException;
-
 /**
  * @author Adama SEYE :
  * Interface utilisée pour la génération du code OTP
@@ -10,7 +8,7 @@ import io.github.seyeadamaUASZ.exception.OTPException;
 
 public interface OTPConfiguration {
     String generateCodeOtp(String type, String typeDuration, long duration, int len);
-    boolean verifyCode(String code) throws OTPException;
+    boolean verifyCode(String code);
 
 
 }

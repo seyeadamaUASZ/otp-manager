@@ -19,6 +19,10 @@ Gradle :
 ```
 implementation 'io.github.seyeadamaUASZ:otp-manager:1.0.0'
 ```
+version Java requise:   
+Java 17 +   
+maven 3.6 +
+
 - Type de code OTP à générer :
     type de l'OTP  (**NUMBER, ALPHABET, ALPHA_NUMERIC**)       
 
